@@ -47,7 +47,7 @@ git commit -m "message"
 git push -u origin master
 ```
 
-To duplicated the blog system to your own repository add the remote repository before *git push*
+To duplicate the blog system to your own repository add the remote repository before *git push*
 
 ```
 git remote add origin url.git

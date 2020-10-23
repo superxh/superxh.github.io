@@ -7,6 +7,11 @@ SITEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = '.'
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {
+        'extra/favicon.ico': {'path': 'favicon.ico'}
+        }
+
 
 TIMEZONE = 'Asia/Hong_Kong'
 

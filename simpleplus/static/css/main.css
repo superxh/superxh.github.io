@@ -62,13 +62,19 @@
 #post-list {
 	padding: 0;
 	list-style: none; 
-	margin: 0 8px; 
+	margin: 0 8px 0 0; 
+	/* border: 2px solid blue;  */
+}
+
+#tc-list {
+    padding: 0;
+	margin: 0 8px 0 0; 
 	/* border: 2px solid blue;  */
 }
 
 #post-list time{
 	float: right;
-	margin: 0 8px;
+	margin: 0 0 0 8px;
 }
 
 #content{

@@ -5,7 +5,7 @@
 {% block content %}
 <section id="content">
     <h2 id="heading-title">Categories on {{ SITENAME }}</h2>
-    <ul>
+    <ul id="tc-list">
     {% for category, articles in categories|sort %}
         <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})</li>
     {% endfor %}

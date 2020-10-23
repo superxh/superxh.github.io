@@ -1,0 +1,292 @@
+#index{
+	max-width: 750px;
+	/* border: 2px solid blue;  */
+	margin: auto;
+}
+
+#banner{
+	margin: 0 8px 0em 8px;
+	text-align: center;
+	font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+#banner h1 a{
+	padding: 0;
+	margin: 0 0 0em 0;
+	border-bottom: none;
+	/* border: 2px solid blue;  */
+}
+
+
+#index nav {
+	background: #ffffff;
+	margin: 0 8px 0em 8px;
+	padding: 0;
+	text-align: center;
+	/* border: 2px solid blue;  */
+	
+}
+
+#index nav ul {
+	padding: 0;
+	list-style: none; 
+	margin: 0 auto; 
+}
+
+#index nav li {
+	display: inline; 
+	margin: 10px;
+	/* border: 2px solid blue;  */
+}
+#index nav li a{
+	display: inline-block;
+	width:50px;
+	font-weight: bold;
+	/* border: 0; */
+}
+
+/* subtitle style */
+#heading-title{
+	/* border: 2px solid blue;  */
+	margin: 0 8px;
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+}
+
+
+#post-list {
+	padding: 0;
+	list-style: none; 
+	margin: 0 8px; 
+	/* border: 2px solid blue;  */
+}
+
+#post-list time{
+	float: right;
+	margin: 0 8px;
+}
+
+#content{
+	/* border: 2px solid blue;  */
+	min-height: 80vh;
+}
+
+#contentinfo{
+	/* border: 2px solid blue;  */
+	margin: 0.5em 8px 0;
+	padding: 0;
+	/* position: absolute;
+	bottom: 5vh;; */
+	
+}
+
+#contentinfo address{
+	/* border: 2px solid blue;  */
+	margin: 0.5em 0 0 0;
+	padding: 0;
+	font-style: normal;
+}
+
+div.entry-content{
+	margin: 0 8px 0;
+}
+
+footer.post-info{
+	margin: 0 0;
+	/* padding: 0; */
+	/* border: 2px solid blue;  */
+	text-align: center;
+}
+
+/* global style
+----------------------------------------------- */
+/* Main structure
+----------------------------------------------- */
+body {
+    font-family: "","Times New Roman","serif";
+    font-size: 16px;
+	display: block;
+	min-height: 95vh;
+}
+footer {
+    clear: both;
+}
+
+iframe {
+    border-width: 0px;
+    width: 100%;
+}
+
+/* HTML element control
+----------------------------------------------- */
+p {
+    margin: 0 0 0 0;
+    text-align: left;
+    text-justify: auto;
+    line-height: 1.3em;
+}
+
+
+blockquote {
+    margin: 0 0 1em 0;
+    padding: 0 30px;
+    color: #808080;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+small {
+    font-size: 0.8em;
+}
+
+sup, sub {
+    font-size: 0.75em;
+}
+
+sup {
+    vertical-align: super;
+}
+
+sub {
+    vertical-align: sub;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    color: #ccc;
+    margin: 1em 0;
+    border: none;
+    padding: 0;
+}
+
+pre, code, tt {
+    font-family: 'Monaco', 'DejaVu Sans Mono', 'Consolas', 'Courier', 'Courier New', monospace;
+    font-size: 1em;
+    line-height:1.8;
+    color: #4d4d4d;
+}
+
+pre {
+    margin: 0 0 1em 0;
+    border: 1px solid #e5e5e5;
+    padding: 0.5em 1em;
+    white-space: pre-wrap;
+    overflow: hidden;
+    background: #fafafa;
+}
+
+code, tt {
+    background: #efefef;
+}
+
+pre code, pre tt {
+    background: none;
+}
+
+html > body code, html > body tt, html > body pre {
+    font-size:12px;
+}
+
+h3 code {
+    text-transform: none;
+}
+
+ul, ol {
+    margin: 0.25em 0 0.25em 15px;
+    padding: 0;
+}
+ul {
+    list-style: disc;
+}
+li {
+    line-height: 1em;
+}
+ul li {
+    margin: 0 0;
+}
+ol li {
+    margin: 0 0 0.25em 0.45em;
+}
+a { 
+    text-decoration: none;
+    border-bottom: 1px #ccc dotted;
+    color: inherit;
+}
+a:hover { 
+    border: 0;
+}
+
+footer{
+	margin: 0.5em 0 0 0;
+    padding: 1em 0 0 0;
+    font-size: 70%;
+	color: #999;
+}
+
+footer.body {
+    margin: 0.5em 0 0 0;
+    border-top: 3px double #ccc;
+    padding: 1em 0 0 0;
+	font-size: 70%;
+	color: #999;
+	/* border: 2px solid blue;  */
+}
+rt {
+    color: #777;
+}
+/* Headers
+----------------------------------------------- */
+
+/* The headers tries to emulate the format of
+ Oxfod Lecture Series in Mathematics and Its Applications */
+h1 {
+    font-size: 1.15em;
+    line-height: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+h3 {
+    font-size: 1.1em;
+    font-style: italic;
+	font-weight: bold;
+	margin: 0.5em 0;
+}
+/* You must be doing it wrong... if you use the following headings
+No one need more than 3 levels in a short article... */
+h4 {
+	font-size: 1em;
+	margin: 0.5em 0;
+}
+h5 {
+	font-size: 0.8em;
+	margin: 0.5em 0;
+}
+
+/* Global content control
+----------------------------------------------- */
+img {
+    max-width:100%;
+    height: auto;
+    margin: auto;
+}

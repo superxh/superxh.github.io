@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+{% block content_title %}
+<h2 id="heading-title">All articles</h2>
+{% endblock %}
+
+<ul id="post-list">
+{% for article in articles_page.object_list %}
+        <li><article class="hentry">
+                <header> 
+                    <div class="entry-title">
+                        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a> 
+                        <time class="published" datetime="{{ article.date.isoformat()}}"> {{ article.date|strftime('%Y-%m-%d') }} </time>
+                    </div>
+                </header>
+        </article></li>
+{% endfor %}
+</ul><!-- /#posts-list -->
+{% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+{% endif %}
+</section><!-- /#content -->
+{% endblock content %}

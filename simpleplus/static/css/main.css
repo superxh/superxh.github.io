@@ -59,22 +59,22 @@
 }
 
 
-#post-list {
+#post-list{
 	padding: 0;
 	list-style: none; 
-	margin: 0 8px 0 0; 
+	margin: 0 8px; 
 	/* border: 2px solid blue;  */
 }
 
-#tc-list {
+#tc-list li{
     padding: 0;
-	margin: 0 8px 0 0; 
+	margin: 0 8px; 
 	/* border: 2px solid blue;  */
 }
 
 #post-list time{
 	float: right;
-	margin: 0 0 0 8px;
+	margin: 0 0;
 }
 
 #content{

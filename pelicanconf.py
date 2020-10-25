@@ -29,6 +29,8 @@ PLUGINS = ['i18n_subsites']
 I18N_SUBSITES = {
     'zh': {
         'SITENAME': '徐航',
+        'THEME': 'simpleplus_zh',
+        'AUTHOR' : '徐航',
         }
     }
 

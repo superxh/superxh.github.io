@@ -34,7 +34,7 @@
 </section>
 <footer class="post-info">
   <time class="published" datetime="{{ article.date.isoformat() }}">
-    {{ article.locale_date }}
+    {{ article.date|strftime('%Y年%m月%d日') }}
   </time>
   {% if article.modified %}
   <time class="modified" datetime="{{ article.modified.isoformat() }}">
@@ -42,15 +42,15 @@
   </time>
   {% endif %}
   {% if article.authors %}
-    By {% for author in article.authors %}
-        <a class="url fn" href="{{ SITEURL }}/pages/about.html">{{ author }}</a>
+     {% for author in article.authors %}
+        <a class="url fn" href="{{ SITEURL }}/pages/about.html"> {{ author }}</a>
       {% endfor %}
   {% endif %}
   {% if article.category %}
-      Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+      分类: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
   {% endif %}
   {% if article.tags %}
-      Tags:
+      标签:
       {% for tag in article.tags %}
           <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
       {% endfor %}

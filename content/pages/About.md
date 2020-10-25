@@ -1,4 +1,6 @@
 Title: About
+slug: about
+lang: en
 
 My name is Hang Xu. I am an electronic and electrical engineer with practical experience and research projects in integrated mechatronic and hardware system design. My interest fields are sensors, embedded computing, signal processing, control system, and robotics. I love engineering and enjoy the process of solving practical engineering problems. Here is my [CV](https://superxh.github.io/CV.pdf).
 

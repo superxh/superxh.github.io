@@ -2,6 +2,8 @@ Title: My First Article
 Date: 2020-10-23
 Category: Daily
 Tags: Others
+slug: My-First-Article
+lang: en
 
 Thanks to Github pages and Pelican, now I get a personal blog here. In the following days, I will work on to regenerate all my past projects contents and begin to update the contents of my current life. 
 

@@ -25,8 +25,7 @@
 <section id="content" class="body">
   <header>
     <h2 id="heading-title" class="entry-title">{{ article.title }}</h2>
- {% import 'translations.html' as translations with context %}
- {{ translations.translations_for(article) }}
+
   </header>
   <div class="entry-content">
     {{ article.content }}
@@ -55,5 +54,7 @@
           <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
       {% endfor %}
   {% endif %}
+  {% import 'translations.html' as translations with context %}
+  {{ translations.translations_for(article) }}
 </footer><!-- /.post-info -->
 {% endblock %}

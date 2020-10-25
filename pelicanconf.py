@@ -23,6 +23,15 @@ LOCALE = ('usa',       # On Windows
 
 THEME = "simpleplus"
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['i18n_subsites']
+
+I18N_SUBSITES = {
+    'zh': {
+        'SITENAME': '徐航',
+        }
+    }
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
